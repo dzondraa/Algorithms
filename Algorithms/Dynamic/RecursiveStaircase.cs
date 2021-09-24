@@ -5,6 +5,7 @@ using System.Text;
 
 namespace Algorithms.Dynamic
 {
+    // PROBLEM: https://www.hackerrank.com/challenges/ctci-recursive-staircase/problem?h_r=internal-search
     public class RecursiveStaircase : IAlgorithm
     {
         public void Execute()
