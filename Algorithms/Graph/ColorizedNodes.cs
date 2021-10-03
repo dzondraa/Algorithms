@@ -26,7 +26,7 @@ namespace Algorithms.Graph
 
             for (int i = 0; i < graphTo.Length; i++)
             {
-                egdes[graphFrom[i]] = 
+                //egdes[graphFrom[i]] = 
             }
 
             
