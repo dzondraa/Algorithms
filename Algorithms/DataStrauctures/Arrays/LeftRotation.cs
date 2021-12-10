@@ -52,7 +52,7 @@ namespace Algorithms.DataStrauctures.Arrays
                 else b[a.Count - (numberOfRotations - i)] = a[i];
             }
 
-            return b;
+            Console.Write(b);
         }
     }
 }
