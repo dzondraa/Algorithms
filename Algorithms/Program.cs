@@ -13,7 +13,7 @@ namespace Algorithms
 {
     class Program
     {
-        public static IAlgorithm algorithm = new SherlockandAnagrams();
+        public static IAlgorithm algorithm = new CountTriplets();
         // Driver Code
         public static void Main(String[] args)
         {
