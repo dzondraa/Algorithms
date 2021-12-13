@@ -13,7 +13,7 @@ namespace Algorithms
 {
     class Program
     {
-        public static IAlgorithm algorithm = new CountTriplets();
+        public static IAlgorithm algorithm = new RansomNote();
         // Driver Code
         public static void Main(String[] args)
         {
