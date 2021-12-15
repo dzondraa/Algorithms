@@ -13,7 +13,7 @@ namespace Algorithms
 {
     class Program
     {
-        public static IAlgorithm algorithm = new FrequencyQueries();
+        public static IAlgorithm algorithm = new BubbleSort();
         // Driver Code
         public static void Main(String[] args)
         {
