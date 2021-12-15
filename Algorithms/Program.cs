@@ -13,7 +13,7 @@ namespace Algorithms
 {
     class Program
     {
-        public static IAlgorithm algorithm = new RansomNote();
+        public static IAlgorithm algorithm = new FrequencyQueries();
         // Driver Code
         public static void Main(String[] args)
         {
