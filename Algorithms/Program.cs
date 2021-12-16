@@ -13,7 +13,7 @@ namespace Algorithms
 {
     class Program
     {
-        public static IAlgorithm algorithm = new BubbleSort();
+        public static IAlgorithm algorithm = new Comparator();
         // Driver Code
         public static void Main(String[] args)
         {
