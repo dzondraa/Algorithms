@@ -13,7 +13,7 @@ namespace Algorithms
 {
     class Program
     {
-        public static IAlgorithm algorithm = new Comparator();
+        public static IAlgorithm algorithm = new FraudulentActivityNotifications();
         // Driver Code
         public static void Main(String[] args)
         {
