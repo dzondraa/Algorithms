@@ -1,5 +1,5 @@
-# Algorithms
-Data structures and algorithms
+# Algorithms and Data structures
+The best investment you can make in yourself is doing 1 coding task a day
 ## Working on interview preparation kit - source:
 ![alt text](https://www.yosuccess.com/wp-content/uploads/2015/01/HackerRank2.png)
 https://www.hackerrank.com/interview/interview-preparation-kit 
@@ -19,7 +19,10 @@ https://www.hackerrank.com/interview/interview-preparation-kit
 - Recursion and Backtracking :heavy_check_mark:	
 - Miscellaneous :heavy_check_mark:	
 
-## Challanges done (70)
+## Challanges done (73)
+- Special String Again
+- Jumping on the Clouds
+- Strings: Making Anagrams
 - Merge Sort: Counting Inversions
 - Sales by Match
 - Fraudulent Activity Notifications
