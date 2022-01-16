@@ -8,12 +8,13 @@ using Algorithms.DataStrauctures;
 using Algorithms.DataStrauctures.Arrays; 
 using Algorithms.Interface;
 using Algorithms.DataStrauctures.HashMapAndDictionary;
+using Algorithms.StringManipulation;
 
 namespace Algorithms
 {
     class Program
     {
-        public static IAlgorithm algorithm = new MergeSort_CountingInversions();
+        public static IAlgorithm algorithm = new SpecialStringAgain();
         // Driver Code
         public static void Main(String[] args)
         {
