@@ -14,7 +14,7 @@ namespace Algorithms
 {
     class Program
     {
-        public static IAlgorithm algorithm = new SpecialStringAgain();
+        public static IAlgorithm algorithm = new CommonChild();
         // Driver Code
         public static void Main(String[] args)
         {
