@@ -22,7 +22,6 @@ namespace Algorithms.StringManipulation
                 LCS[i,j] = max(LCS[i-1, j], LCS[i, j-1])
             */
             
-            int count = 0;
             string s1 = "BD";
             string s2 = "ABCD";
             
