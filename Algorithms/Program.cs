@@ -9,12 +9,13 @@ using Algorithms.DataStrauctures.Arrays;
 using Algorithms.Interface;
 using Algorithms.DataStrauctures.HashMapAndDictionary;
 using Algorithms.StringManipulation;
+using Algorithms.Trees;
 
 namespace Algorithms
 {
     class Program
     {
-        public static IAlgorithm algorithm = new CommonChild();
+        public static IAlgorithm algorithm = new HeightofaBinaryTree();
         // Driver Code
         public static void Main(String[] args)
         {
