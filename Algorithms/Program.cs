@@ -10,12 +10,13 @@ using Algorithms.Interface;
 using Algorithms.DataStrauctures.HashMapAndDictionary;
 using Algorithms.StringManipulation;
 using Algorithms.Trees;
+using Algorithms.WarmUp;
 
 namespace Algorithms
 {
     class Program
     {
-        public static IAlgorithm algorithm = new LowestCommonAncestor();
+        public static IAlgorithm algorithm = new CountingValleys();
         // Driver Code
         public static void Main(String[] args)
         {
