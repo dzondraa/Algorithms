@@ -15,7 +15,7 @@ namespace Algorithms
 {
     class Program
     {
-        public static IAlgorithm algorithm = new HeightofaBinaryTree();
+        public static IAlgorithm algorithm = new LowestCommonAncestor();
         // Driver Code
         public static void Main(String[] args)
         {
