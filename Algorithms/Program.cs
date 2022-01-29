@@ -16,7 +16,7 @@ namespace Algorithms
 {
     class Program
     {
-        public static IAlgorithm algorithm = new CountingValleys();
+        public static IAlgorithm algorithm = new IsThisABinarySearchTree();
         // Driver Code
         public static void Main(String[] args)
         {
