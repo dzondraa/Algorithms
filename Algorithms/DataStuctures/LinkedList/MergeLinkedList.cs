@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Algorithms.DataStrauctures
+namespace Algorithms.DataStrauctures.LinkedList
 {
     public class MergeLinkedList : IAlgorithm
     {

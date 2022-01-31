@@ -11,12 +11,13 @@ using Algorithms.DataStrauctures.HashMapAndDictionary;
 using Algorithms.StringManipulation;
 using Algorithms.Trees;
 using Algorithms.WarmUp;
+using Algorithms.DataStuctures.LinkedList;
 
 namespace Algorithms
 {
     class Program
     {
-        public static IAlgorithm algorithm = new IsThisABinarySearchTree();
+        public static IAlgorithm algorithm = new InsertingtoSortedDoublyLinkedList();
         // Driver Code
         public static void Main(String[] args)
         {
