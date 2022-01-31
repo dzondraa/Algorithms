@@ -19,7 +19,13 @@ https://www.hackerrank.com/interview/interview-preparation-kit
 - Recursion and Backtracking :heavy_check_mark:	
 - Miscellaneous :heavy_check_mark:	
 
-## Challanges done (73)
+## Challanges done (79)
+- Trees: Is This a Binary Search Tree?
+- Repeated String
+- Counting Valleys
+- Binary Search Tree : Lowest Common Ancestor
+- Tree: Height of a Binary Tree
+- Common Child
 - Special String Again
 - Jumping on the Clouds
 - Strings: Making Anagrams
