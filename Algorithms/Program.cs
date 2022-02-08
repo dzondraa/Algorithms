@@ -17,7 +17,7 @@ namespace Algorithms
 {
     class Program
     {
-        public static IAlgorithm algorithm = new InsertingtoSortedDoublyLinkedList();
+        public static IAlgorithm algorithm = new CommonLinkedListProblems();
         // Driver Code
         public static void Main(String[] args)
         {

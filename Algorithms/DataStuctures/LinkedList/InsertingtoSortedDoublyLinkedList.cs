@@ -5,19 +5,38 @@ using System.Text;
 
 namespace Algorithms.DataStuctures.LinkedList
 {
-    public class InsertingtoSortedDoublyLinkedList : IAlgorithm
+    public class CommonLinkedListProblems : IAlgorithm
     {
         public void Execute()
         {
+            int x = 3;
             DoublyLinkedList llist = new DoublyLinkedList();
             llist.InsertNode(1);
             llist.InsertNode(2);
             llist.InsertNode(3);
             llist.InsertNode(4);
             llist.InsertNode(10);
-            PrintDoublyLinkedList(sortedInsert(llist.head, 5), "<->");
+            PrintDoublyLinkedList(Reverse(llist.head), "<->");
         }
 
+        /// <summary>
+        /// Reverses doubly linked list
+        /// </summary>
+        /// <param name="curr">Head of a list</param>
+        /// <returns>Head of reversed list</returns>
+        static DoublyLinkedListNode Reverse(DoublyLinkedListNode curr)
+        {
+            DoublyLinkedListNode temp = curr.next;
+            curr.next = curr.prev;
+            curr.prev = temp;
+            return temp == null ? curr : Reverse(temp);
+        }
+
+
+        /// <summary>
+        /// Inser the value in a sorted manner
+        /// </summary>
+        /// <returns>Head of reversed list</returns>
         static DoublyLinkedListNode sortedInsert(DoublyLinkedListNode llist, int data)
         {
             var insertionNode = new DoublyLinkedListNode(data);
