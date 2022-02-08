@@ -9,14 +9,35 @@ namespace Algorithms.DataStuctures.LinkedList
     {
         public void Execute()
         {
-            int x = 3;
             DoublyLinkedList llist = new DoublyLinkedList();
             llist.InsertNode(1);
             llist.InsertNode(2);
             llist.InsertNode(3);
             llist.InsertNode(4);
             llist.InsertNode(10);
-            PrintDoublyLinkedList(Reverse(llist.head), "<->");
+            PrintDoublyLinkedList(insertNodeAtPosition(llist.head, 123, 2), "<->");
+        }
+
+        /// <summary>
+        /// Inserts node at the specific position
+        /// </summary>
+        /// <param name="position">Position int starting from 0</param>
+        /// <returns>Head of reversed list</returns>
+        static DoublyLinkedListNode insertNodeAtPosition(DoublyLinkedListNode llist, int data, int position)
+        {
+            var current = llist;
+            for (int i = 0; i < position - 1; i++)
+            {
+                current = current.next;
+            }
+
+            var insertionNode = new DoublyLinkedListNode(data);
+            insertionNode.next = current.next;
+            current.next = insertionNode;
+
+
+            return llist;
+
         }
 
         /// <summary>
