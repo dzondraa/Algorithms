@@ -15,6 +15,7 @@ namespace Algorithms.DataStuctures.LinkedList
             llist.InsertNode(3);
             llist.InsertNode(4);
             llist.InsertNode(10);
+            Console.WriteLine(hasCycle(llist.head));
             PrintDoublyLinkedList(insertNodeAtPosition(llist.head, 123, 2), "<->");
         }
 
@@ -78,6 +79,25 @@ namespace Algorithms.DataStuctures.LinkedList
                 rest.prev = llist;
                 return llist;
             }
+        }
+
+        /// <summary>
+        /// Check if list conains cycles
+        /// </summary>
+        /// <param name="head">Head of a linked list</param>
+        /// <returns>True if there is cycle</returns>
+        static bool hasCycle(DoublyLinkedListNode head)
+        {
+            List<DoublyLinkedListNode> visited = new List<DoublyLinkedListNode>();
+            while (head != null)
+            {
+                if (visited.Contains(head))
+                    return true;
+
+                visited.Add(head);
+                head = head.next;
+            }
+            return false;
         }
 
         class DoublyLinkedListNode
