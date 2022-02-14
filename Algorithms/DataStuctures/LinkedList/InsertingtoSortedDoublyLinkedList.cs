@@ -100,6 +100,31 @@ namespace Algorithms.DataStuctures.LinkedList
             return false;
         }
 
+        /// <summary>
+        /// Finding the node where 2 linked lists are merged
+        /// </summary>
+        /// <param name="head1">Head of first linked list</param>
+        /// <param name="head2">Head of second linked list</param>
+        /// <returns>Data value of merge node </returns>
+        static int findMergeNode(DoublyLinkedListNode head1, DoublyLinkedListNode head2)
+        {
+            while (head2 != null)
+            {
+
+                var headCLone = head1;
+                while (headCLone != null)
+                {
+                    if (headCLone == head2)
+                        return headCLone.data;
+                    headCLone = headCLone.next;
+                }
+
+                head2 = head2.next;
+            }
+            return 0;
+
+        }
+
         class DoublyLinkedListNode
         {
             public int data;
