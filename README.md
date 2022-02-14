@@ -19,8 +19,10 @@ https://www.hackerrank.com/interview/interview-preparation-kit
 - Recursion and Backtracking :heavy_check_mark:	
 - Miscellaneous :heavy_check_mark:	
 
-## Challanges done (82)
--Insert a node at a specific position in a linked list
+## Challanges done (84)
+- Find Merge Point of Two Lists
+- Linked Lists: Detect a Cycle
+- Insert a node at a specific position in a linked list
 - Reverse a doubly linked list
 - Inserting a Node Into a Sorted Doubly Linked List
 - Trees: Is This a Binary Search Tree?
