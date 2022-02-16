@@ -20,6 +20,8 @@ https://www.hackerrank.com/interview/interview-preparation-kit
 - Miscellaneous :heavy_check_mark:	
 
 ## Challanges done (84)
+- Balanced Brackets
+- Minimum Absolute Difference in an Array
 - Find Merge Point of Two Lists
 - Linked Lists: Detect a Cycle
 - Insert a node at a specific position in a linked list
