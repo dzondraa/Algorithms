@@ -12,12 +12,13 @@ using Algorithms.StringManipulation;
 using Algorithms.Trees;
 using Algorithms.WarmUp;
 using Algorithms.DataStuctures.LinkedList;
+using Algorithms.GreedyAlgorithms;
 
 namespace Algorithms
 {
     class Program
     {
-        public static IAlgorithm algorithm = new CommonLinkedListProblems();
+        public static IAlgorithm algorithm = new MinimumAbsoluteDifferenceInAnArray();
         // Driver Code
         public static void Main(String[] args)
         {
