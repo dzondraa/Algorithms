@@ -14,8 +14,9 @@ namespace Algorithms.GreedyAlgorithms
             var tests = new int[][] {
                 new int[] { 3, -7, 0 },
                 new int[] {-59, -36, -13, 1,-53, -92, -2, -96, -54, 75 },
+                new int[] { 1, 2, 3, 4, 5, 6 }
             };
-            var expectedOutpu = new int[] { 3, 1 };
+            var expectedOutpu = new int[] { 3, 1, 1 };
 
             for(int testCaseCounter = 0; testCaseCounter < tests.Length; testCaseCounter++)
             {

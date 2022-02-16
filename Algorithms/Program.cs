@@ -13,12 +13,13 @@ using Algorithms.Trees;
 using Algorithms.WarmUp;
 using Algorithms.DataStuctures.LinkedList;
 using Algorithms.GreedyAlgorithms;
+using Algorithms.DataStuctures.StackAndQueue;
 
 namespace Algorithms
 {
     class Program
     {
-        public static IAlgorithm algorithm = new MinimumAbsoluteDifferenceInAnArray();
+        public static IAlgorithm algorithm = new BalancedBrackets();
         // Driver Code
         public static void Main(String[] args)
         {
