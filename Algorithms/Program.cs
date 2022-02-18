@@ -19,7 +19,7 @@ namespace Algorithms
 {
     class Program
     {
-        public static IAlgorithm algorithm = new BalancedBrackets();
+        public static IAlgorithm algorithm = new LuckBalance();
         // Driver Code
         public static void Main(String[] args)
         {
