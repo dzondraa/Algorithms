@@ -19,7 +19,9 @@ https://www.hackerrank.com/interview/interview-preparation-kit
 - Recursion and Backtracking :heavy_check_mark:	
 - Miscellaneous :heavy_check_mark:	
 
-## Challanges done (84)
+## Challanges done (88)
+- Greedy Florist
+- Luck Balance
 - Balanced Brackets
 - Minimum Absolute Difference in an Array
 - Find Merge Point of Two Lists
