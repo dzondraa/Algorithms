@@ -19,7 +19,7 @@ namespace Algorithms
 {
     class Program
     {
-        public static IAlgorithm algorithm = new GreedyFlorist();
+        public static IAlgorithm algorithm = new ATaleOfTwoStacks();
         // Driver Code
         public static void Main(String[] args)
         {
