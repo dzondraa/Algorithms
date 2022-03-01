@@ -19,7 +19,11 @@ https://www.hackerrank.com/interview/interview-preparation-kit
 - Recursion and Backtracking :heavy_check_mark:	
 - Miscellaneous :heavy_check_mark:	
 
-## Challanges done (88)
+## Challanges done (92)
+- Flipping bits
+- Hash Tables: Ice Cream Parlor
+- Roads and Libraries
+- Queues: A Tale of Two Stacks
 - Greedy Florist
 - Luck Balance
 - Balanced Brackets
