@@ -14,12 +14,13 @@ using Algorithms.WarmUp;
 using Algorithms.DataStuctures.LinkedList;
 using Algorithms.GreedyAlgorithms;
 using Algorithms.DataStuctures.StackAndQueue;
+using Algorithms.Search;
 
 namespace Algorithms
 {
     class Program
     {
-        public static IAlgorithm algorithm = new RoadsAndLibraries();
+        public static IAlgorithm algorithm = new IceCreamParlor();
         // Driver Code
         public static void Main(String[] args)
         {
