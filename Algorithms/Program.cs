@@ -15,12 +15,13 @@ using Algorithms.DataStuctures.LinkedList;
 using Algorithms.GreedyAlgorithms;
 using Algorithms.DataStuctures.StackAndQueue;
 using Algorithms.Search;
+using Algorithms.Miscellaneous;
 
 namespace Algorithms
 {
     class Program
     {
-        public static IAlgorithm algorithm = new IceCreamParlor();
+        public static IAlgorithm algorithm = new FlippingBits();
         // Driver Code
         public static void Main(String[] args)
         {
