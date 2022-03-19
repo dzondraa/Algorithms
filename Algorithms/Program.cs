@@ -21,7 +21,7 @@ namespace Algorithms
 {
     class Program
     {
-        public static IAlgorithm algorithm = new FlippingBits();
+        public static IAlgorithm algorithm = new MaxMin();
         // Driver Code
         public static void Main(String[] args)
         {
