@@ -19,7 +19,10 @@ https://www.hackerrank.com/interview/interview-preparation-kit
 - Recursion and Backtracking :heavy_check_mark:	
 - Miscellaneous :heavy_check_mark:	
 
-## Challanges done (92)
+## Challanges done (95)
+- Time Complexity: Primality
+- Recursion: Fibonacci Numbers
+- Max Min-a day ago
 - Flipping bits
 - Hash Tables: Ice Cream Parlor
 - Roads and Libraries
