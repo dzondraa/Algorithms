@@ -21,7 +21,7 @@ namespace Algorithms
 {
     class Program
     {
-        public static IAlgorithm algorithm = new MaxMin();
+        public static IAlgorithm algorithm = new FibonacciNumbers();
         // Driver Code
         public static void Main(String[] args)
         {
