@@ -22,7 +22,6 @@ namespace Algorithms
     class Program
     {
         public static IAlgorithm algorithm = new DavisStaircase();
-        // Driver Code
         public static void Main(String[] args)
         {
             algorithm.Execute();
