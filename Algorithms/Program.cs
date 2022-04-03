@@ -21,7 +21,7 @@ namespace Algorithms
 {
     class Program
     {
-        public static IAlgorithm algorithm = new Abbreviation();
+        public static IAlgorithm algorithm = new SwapNodes();
         public static void Main(String[] args)
         {
             algorithm.Execute();
