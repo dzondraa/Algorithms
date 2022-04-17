@@ -19,7 +19,10 @@ https://www.hackerrank.com/interview/interview-preparation-kit
 - Recursion and Backtracking :heavy_check_mark:	
 - Miscellaneous :heavy_check_mark:	
 
-## Challanges done (95)
+## Challanges done (98)
+- Reverse Shuffle Merge
+- Swap Nodes [Algo]
+- Abbreviation
 - Time Complexity: Primality
 - Recursion: Fibonacci Numbers
 - Max Min-a day ago
