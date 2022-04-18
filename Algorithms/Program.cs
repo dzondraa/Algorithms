@@ -21,7 +21,7 @@ namespace Algorithms
 {
     class Program
     {
-        public static IAlgorithm algorithm = new ReverseShuffleMerge();
+        public static IAlgorithm algorithm = new Pairs();
         public static void Main(String[] args)
         {
             algorithm.Execute();
